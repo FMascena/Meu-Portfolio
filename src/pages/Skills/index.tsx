@@ -1,1 +1,12 @@
-// Conteúdo da Página aqui
+
+
+
+function Skills() {
+    return(
+        <div>
+            
+        </div>
+    );
+}
+
+export default Skills

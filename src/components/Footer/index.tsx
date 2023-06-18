@@ -1,1 +1,11 @@
-// Conteúdo da Página aqui
+
+
+function Footer() {
+    return(
+        <div>
+            
+        </div>
+    );
+}
+
+export default Footer
