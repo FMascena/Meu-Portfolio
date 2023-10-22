@@ -1,11 +1,22 @@
-import Routes from './Routes';
-import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
-import './index.css';
+import './App.css';
+import Header from "./components/Header";
+import Banner from "./components/Banner";
+import About from "./components/About";
+import Skills from "./components/Skills";
+import Projects from "./components/Projects";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <Routes />
+      <Header />
+      <Banner />
+      <About />
+      <Skills />
+      <Projects />
+      <Contact />
+      <Footer />
     </div>
   );
 }

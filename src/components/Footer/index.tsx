@@ -1,11 +1,11 @@
+import  React from "react";
 
-
-function Footer() {
+const Footer = () => {
     return(
-        <div>
-            
-        </div>
+        <footer>
+            <p>&copy; {new Date().getFullYear()} Felipe Mascena</p>
+        </footer>
     );
 }
 
-export default Footer
+export default Footer;
